@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { Employee } from '../employees/models/employee.model';
 import { FormControl, ReactiveFormsModule } from '@angular/forms';
+import { FormsModule } from '@angular/forms';
 @Component({
   selector: 'app-addemployee',
   standalone: true,

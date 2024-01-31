@@ -16,6 +16,9 @@
         </li>
       </ul>
     </div>
+    <label for="name">Name: </label>
+<input id="name" type="text" [formControl]="name">
+<p class="text-white">Value: {{ name.value }}</p>
   </div>
 </nav>
 <router-outlet></router-outlet>
